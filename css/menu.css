@@ -1,0 +1,68 @@
+/*///////////////////
+///// SLIDES JS /////
+///////////////////*/
+
+
+/* GENERALES*/
+
+a	{
+	outline:none;
+	text-decoration:none;
+}
+
+a:link,
+a:visited	{color:#006699;}
+a:hover		{color:#00CCFF;}
+
+.center		{text-align:center;}
+	
+/* CONTENIDO GLOBAL*/	
+#slides_content {
+	width:950px; /* ANCHO DEL CONTENEDOR*/
+	overflow:hidden;
+	margin:auto;
+	}
+/* LISTA DE ITEMS */
+.buttons{
+	text-align:center;
+	width:950px; /* ANCHO DEL MENU */
+	clear:both;
+	display:block;
+	list-style:none;
+	white-space: nowrap;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	}
+
+.buttons li{
+	display: inline;
+	list-style-type: none;
+}
+
+.buttons li a{
+	text-align:center;
+	margin:0px 0px 0px 0px;
+	padding:8px 25px ;
+	line-height:21px;
+	/*border:solid 1px #000;*/
+	
+	}	
+	
+.buttons li a:link,
+.buttons li a:visited{
+    background-image:url(../img/boton.jpg); /*fondo boton*/
+	color:#FFF; /*color boton*/
+	background-repeat:no-repeat;
+	}	
+
+.buttons li a:hover{
+	color:#000;
+	background:#CCCCCC; /*fondo al focus*/
+
+	}
+
+.buttons li a#current{
+    background-image:url(../img/button4.gif); /*fondo click al boton*/
+	color:#FFF;
+	background-repeat:no-repeat;
+}

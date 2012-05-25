@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.content{
+	float:left;
+	position:relative;
+	width:100%;
+	height:400px;
+	}
+.login{
+	
+	border:1px solid #aaa;
+	width:40%;
+	
+	
+	margin-left:25%;
+	}
+.login-header{
+	margin-left:0%;
+	border-bottom:1px solid #aaa;
+	width:100%;
+	height:50px;
+	}
+.login-content{
+   margin-top:10px;
+   margin-bottom:10px;
+}
+.field{
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	width:50%;
+}
+.button{
+	   -moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	}
+	
+.footer{
+	
+	clear:both;
+	border-top:1px solid #aaa;
+	position:relative;
+	margin-top:30%;
+	width:100%;
+	height:20px;
+	text-align:center;
+	}	

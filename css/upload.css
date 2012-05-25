@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#upload_button {
+    width:120px;
+    height:35px;
+    text-align:center;
+    background-image:url(boton.png);
+    color:#CCCCCC;
+    font-weight:bold;
+    padding-top:15px;
+    margin:auto;
+} 
